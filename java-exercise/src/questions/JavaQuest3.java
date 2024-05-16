@@ -33,6 +33,9 @@ public class JavaQuest3 {
     switch (month) {
       case 1:
         MonthOfName = "January";
+        number_Of_DaysInMonth = 31;
+        break;
+        
         // Code here ...
       case 2:
         MonthOfName = "February";
@@ -41,6 +44,60 @@ public class JavaQuest3 {
         // i.e. 2200 Feb -> 28 days, 2400 Feb -> 29 days, 2016 Feb -> 29 days
         // otherwise the February should have 28 days only
         // how about other months, December?
+        if ((year%4==0 && year%100!=0) || year%400==0 ) { // code here ...
+          number_Of_DaysInMonth = 29;}
+        
+        case 3:
+        MonthOfName = "March";
+        number_Of_DaysInMonth = 31;
+        break;
+
+        case 4:
+        MonthOfName = "April";
+        number_Of_DaysInMonth = 30;
+        break;
+        
+        case 5:
+        MonthOfName = "May";
+        number_Of_DaysInMonth = 31;
+        break;
+
+        case 6:
+        MonthOfName = "June";
+        number_Of_DaysInMonth = 30;
+        break;
+
+        case 7:
+        MonthOfName = "July";
+        number_Of_DaysInMonth = 31;
+        break;
+
+        case 8:
+        MonthOfName = "August";
+        number_Of_DaysInMonth = 31;
+        break;
+
+        case 9:
+        MonthOfName = "September";
+        number_Of_DaysInMonth = 30;
+        break;
+
+        case 10:
+        MonthOfName = "October";
+        number_Of_DaysInMonth = 31;
+        break;
+
+        case 11:
+        MonthOfName = "November";
+        number_Of_DaysInMonth = 30;
+        break;
+
+        case 12:
+        MonthOfName = "December";
+        number_Of_DaysInMonth = 31;
+        break;
+        
+        
     }
     System.out.print(MonthOfName + " " + year + " has " + number_Of_DaysInMonth + " days\n");
   }

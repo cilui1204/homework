@@ -24,17 +24,20 @@ public class JavaQuest1 {
     int first = 31;
     // declare the second one
     // code here ...
+    int second = 42;
 
     System.out.println("The first one: " + first);
     System.out.println("The second one: " + second);
 
     // Add two numbers and print it out
     // code here ...
+    int sum = first + second;
     System.out.println("The sum is " + sum);
 
     // subtraction
     // code here with tips, pls fix ...
     // subtract = first - second
+    int subtract = second - first;
     System.out.println("The subtraction reuslt is " + subtract);
 
     // another sum
@@ -42,17 +45,21 @@ public class JavaQuest1 {
     byte b2 = 70;
     // code here with tips, pls fix ...
     // sum = b1 + b2;
-    System.out.println("The another sum reuslt is " + sum);
+    int AnotherSum = b1 + b2;
+    System.out.println("The another sum reuslt is " + AnotherSum);
 
     // declare two boolean variable with true and false value
     // code here
+    boolean varB = false;
+    boolean varC = true;
+
     System.out.println("The variable varB is " + varB);
     System.out.println("The variable varC is " + varC);
 
     // Reading Example
     float fnumber = -130.20f; // By default, numbers are treated as double in Java.
     // Use suffix 'f' with value to make it float.
-    double dnumber = -20.50;
+    double dnumber = -20.50f;
     System.out.println("The variable fnumber is " + fnumber);
     System.out.println("The variable dnumber is " + dnumber);
 
@@ -60,14 +67,15 @@ public class JavaQuest1 {
     int a = 7;
     int b = 3;
     // Fix it ...
-    int reminder = a - b;
+    int reminder = a % b;
     System.out.println("The variable reminder is " + reminder);
 
     // declare a variable x and assign value to it.
     int e = 7;
     int o = 8;
     int y = 4;
-    // code here ... define the x and assign value to it
+    // code here ... define the x and assign value to it //      16=8* x
+    int x = 2;
     int result = e - o * x / y;
     System.out.println("The result is " + result);
   }
