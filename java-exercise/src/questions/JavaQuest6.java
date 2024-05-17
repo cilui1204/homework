@@ -1,4 +1,4 @@
-package questions;
+package src.questions;
 
 public class JavaQuest6 {
   /**

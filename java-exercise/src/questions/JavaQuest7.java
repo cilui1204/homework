@@ -1,4 +1,4 @@
-package questions;
+package src.questions;
 /**
  * The sum is 55
  */
